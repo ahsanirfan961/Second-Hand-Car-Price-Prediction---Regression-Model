@@ -10,29 +10,31 @@ The dataset used for this project is sourced from Kaggle, created by Mayank Pate
 
 Below is a plot of the dataset showing the relationship between kilometers driven and car price. As observed, kilometers driven and price are inversely related, indicating a significant impact on price prediction.
 
-![Data Plot](Data Plot.png)
+![Data Plot](data_plot.png)
 
 ## Model Architecture
 
 The model consists of three dense layers, each with 128 neurons activated using the ReLU function. This architecture allows the model to capture complex patterns in the data.
 
+![Model](model.png)
+
 ## Training Loss
 
 The following plot shows the training loss of the model over epochs. As seen, the loss decreases steadily, indicating that the model is learning effectively.
 
-![Training Loss]()
+![Training Loss](loss.png)
 
 ## Root Mean Squared Loss
 
 The plot below illustrates the Root Mean Squared Loss (RMSE) of the model, demonstrating the model's performance in terms of prediction accuracy.
 
-![RMSE](path_to_your_rmse_plot_image)
+![RMSE](rmse.png)
 
 ## Model Predictions
 
 Finally, here is a plot showing the model's predictions on the test set. The model performs well, providing accurate price predictions for second-hand cars.
 
-![Predictions](path_to_your_predictions_plot_image)
+![Predictions](prediction.png)
 
 ## Conclusion
 
